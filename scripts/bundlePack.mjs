@@ -1523,14 +1523,25 @@ dotenv.config();
                 quantityPerReward: 1,
                 totalRewards:1,
             },
-           
+            {
+                contractAddress: cardAddress,
+                tokenId: 441,
+                quantityPerReward: 1,
+                totalRewards:2500,
+            },
+            {
+                contractAddress: cardAddress,
+                tokenId: 442,
+                quantityPerReward: 1,
+                totalRewards:2500,
+            },
 
 
 
 
             
         ],
-        rewardsPerPack: 2,
+        rewardsPerPack: 5,
     });
 
     console.log("Packs created");
