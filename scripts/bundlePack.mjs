@@ -25,7 +25,7 @@ dotenv.config();
     const createPacks = (await pack).create({
         packMetadata: {
             name: "Season 1 Warrior Pack",
-            description: "Common Warrior Pack, Each pack contains 2 Rewards, Elite NFTs hidden among the commons",
+            description: "Standard F3 Warrior Pack",
             image: packImage,
         },
         erc1155Rewards: [
@@ -747,13 +747,13 @@ dotenv.config();
                 contractAddress: cardAddress,
                 tokenId: 441,
                 quantityPerReward: 1,
-                totalRewards:2500,
+                totalRewards:21,
             },
             {
                 contractAddress: cardAddress,
                 tokenId: 442,
                 quantityPerReward: 1,
-                totalRewards:2500,
+                totalRewards:21,
             },
 
 
